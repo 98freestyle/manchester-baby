@@ -14,8 +14,8 @@ use crate::display;
 use crate::memory::{self, Memory, ROWS, Row};
 use crate::programs;
 
-// The real Baby ran the 1948 program's 2.1 million instructions in 52 minutes,
-// which works out to about 670 instructions a second.
+// The amended 1948 program runs 2.1 million instructions. At about 670 instructions a second
+// it takes around 52 minutes, the same length as the original 1948 run.
 const BABY_INSTRUCTIONS_PER_SECOND: f64 = 670.0;
 
 // At "your CPU" speed, how long to keep running instructions before redrawing the window.
@@ -69,7 +69,7 @@ pub struct BabyApp {
 }
 
 impl BabyApp {
-    // Starts the machine with the 1948 program loaded, like the operators on 21 June 1948.
+    // Starts the machine with the 1948 program loaded.
     pub fn new() -> BabyApp {
         let mut memory = memory::empty();
         programs::load_1948(&mut memory);

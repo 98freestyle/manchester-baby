@@ -25,7 +25,7 @@ It had:
 - 32 bit arithmetic that wraps around like the real hardware
 - The display tube, following the real rules for each monitor setting
 - The control panel, with only the controls the real Baby had
-- The original 1948 program, which finds 131,072 in exactly 2,097,154 instructions, the same as the real run
+- The 1948 highest factor program (Geoff Tootill's amended version from July 1948), which finds 131,072 in 2,097,154 instructions
 
 ## Running it
 
@@ -76,7 +76,7 @@ The left side is the machine, 1:1 with the real Baby. The right side is modern h
 
 ### Modern helpers
 
-- **Speed:** Baby speed (about 670 instructions a second, so the 1948 program takes the real 52 minutes) or as fast as your CPU can go
+- **Speed:** Baby speed (about 670 instructions a second, so the program takes about 52 minutes, like the original 1948 run) or as fast as your CPU can go
 - **Load the 1948 program** at any time
 - A highlight on the row picked by the line switches
 - Readouts for the counter, accumulator, instructions run, and how long a real Baby would have taken
@@ -107,7 +107,7 @@ Before every instruction, the CPU adds 1 to the counter and reads that row. Jump
 
 ## The 1948 program
 
-Tom Kilburn's program finds the biggest number that divides 262,144 exactly, other than 262,144 itself. The Baby had no divide, so it tries every number from 262,143 downwards, subtracting each one over and over to see if it lands exactly on 0.
+Tom Kilburn wrote the first version, which ran on 21 June 1948. The version here is the amended one Geoff Tootill wrote the following month. It finds the biggest number that divides 262,144 exactly, other than 262,144 itself. The Baby had no divide, so it tries every number from 262,143 downwards, subtracting each one over and over to see if it lands exactly on 0.
 
 | Rows | What they do |
 |---|---|

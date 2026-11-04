@@ -2,7 +2,8 @@
 
 use crate::memory::Memory;
 
-// Tom Kilburn's program from 21 June 1948: find the biggest number that divides 262,144 exactly.
+// The 1948 highest factor program, in the amended version Geoff Tootill wrote in July 1948
+// (Tom Kilburn's original ran on 21 June 1948). It finds the biggest number that divides 262,144 exactly.
 // It tries every number from 262,143 downwards. For each one, it subtracts it over and over
 // to see if it lands exactly on 0. The first one that does is the answer.
 pub fn load_1948(memory: &mut Memory) {
