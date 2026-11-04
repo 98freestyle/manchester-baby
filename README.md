@@ -6,6 +6,12 @@ Written in Rust, with a desktop window that recreates the Baby's display tube an
 
 ![The emulator running the 1948 program](docs/screenshot.png)
 
+## Download
+
+**Windows:** grab `manchester-baby.exe` from the [latest release](https://github.com/98freestyle/manchester-baby/releases/latest) and run it. No install needed.
+
+Windows may show a "Windows protected your PC" warning because the exe isn't signed. Click **More info**, then **Run anyway**.
+
 ## What the Baby was
 
 The Baby (officially the Small Scale Experimental Machine) was built by Freddie Williams, Tom Kilburn and Geoff Tootill to test a new kind of memory: the **Williams tube**, which stored bits as tiny charges on the screen of a cathode ray tube.
@@ -27,7 +33,7 @@ It had:
 - The control panel, with only the controls the real Baby had
 - The 1948 highest factor program (Geoff Tootill's amended version from July 1948), which finds 131,072 in 2,097,154 instructions
 
-## Running it
+## Building from source
 
 You need [Rust](https://rustup.rs). On Windows you also need the Visual Studio C++ build tools:
 
