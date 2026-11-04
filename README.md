@@ -1,4 +1,4 @@
-# Manchester Baby
+# Manchester Baby (1948)
 
 An emulator of the **Manchester Baby**, the first computer to run a program stored in its own memory. It ran its first program on 21 June 1948 at the University of Manchester.
 
